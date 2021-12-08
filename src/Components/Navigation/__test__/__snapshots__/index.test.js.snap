@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation component matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="nav-color padding-nav navbar navbar-expand-lg navbar-light"
+  >
+    <a
+      class="bold-brand-name navbar-brand"
+      href="#home"
+    >
+      Nateyana Blake
+    </a>
+    <span
+      class="navbar-text"
+    >
+      Web Developer
+    </span>
+    <button
+      aria-controls="basic-navbar-nav"
+      aria-label="Toggle navigation"
+      class="navbar-toggler collapsed"
+      type="button"
+    >
+      <span
+        class="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      class="navbar-collapse collapse"
+      id="basic-navbar-nav"
+    >
+      <div
+        class="ms-auto navbar-nav"
+      >
+        <a
+          class="nav-link-border nav-link"
+          data-rr-ui-event-key="#home"
+          data-testid="projects"
+          href="#home"
+        >
+          Projects
+        </a>
+        <a
+          class="nav-link-border nav-link"
+          data-rr-ui-event-key="#link"
+          data-testid="resume"
+          href="#link"
+        >
+          Resume
+        </a>
+        <a
+          class="nav-link-border nav-link"
+          data-rr-ui-event-key="#link"
+          data-testid="contact"
+          href="#link"
+        >
+          Contact
+        </a>
+      </div>
+    </div>
+  </nav>
+</DocumentFragment>
+`;

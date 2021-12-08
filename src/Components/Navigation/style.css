@@ -1,0 +1,26 @@
+.nav-color {
+    background-color: #f3f3f3; 
+}
+
+.navbar-brand {
+    margin-right: .5rem !important;
+}
+
+.padding-nav {
+    margin-right: 3%;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.bold-brand-name {
+    font-weight: 600;
+}
+
+.nav-link-border {
+    border-right: 1px solid black;
+    line-height: 4px;
+}
+
+.nav-link-border:last-child {
+    border:none;
+}
