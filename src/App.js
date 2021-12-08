@@ -5,6 +5,7 @@ import Contact from './Components/Contact';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Footer from './Components/Footer';
+import "@fontsource/work-sans";
 
 
 function App() {

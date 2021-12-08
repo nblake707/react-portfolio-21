@@ -1,10 +1,9 @@
-/* font for hello */
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
-/* font-family: 'Monoton', cursive; */
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 body {
   background-color: #f3f3f3 !important;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'work Sans' !important;
+  font-size: 16px;
+}
+
+main {
+  height: 80vh;
 }
