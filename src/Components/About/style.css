@@ -1,5 +1,6 @@
 div.container {
     height: 100%;
+    padding-top: 10%;
 }
 
 div.row {
@@ -18,7 +19,6 @@ div.col {
     text-shadow: 2px 0 #000000;
     letter-spacing: -1.8px;
     padding-bottom: 3%;
-    
 }
 
 .welcome-about-me {
@@ -32,7 +32,30 @@ div.col {
     width: 26rem;
     font-weight: 100;
     line-height: 1.5rem;
+    padding-bottom: 2rem;;
 }
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: -2%;  
+    /* width: 500px; */
+}
+
+.navigation-buttons:nth-child(1) {
+    background-color: #eea302;
+}
+
+.navigation-buttons:nth-child(2) {
+    
+}
+
+.navigation-buttons:nth-child(3) {
+    
+}
+
+
 
 /* .welcome-box {
     display: flex;
