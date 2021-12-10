@@ -40,16 +40,5 @@ div.col {
     justify-content: space-between;
     position: relative;
     left: -2%;  
-    /* width: 5em; */
-    margin: 0;
+    max-width: 80%;
 }
-
-
-/* .welcome-box {
-    display: flex;
-    flex-direction: column;
-} */
-
-/* div.col {
- height: 100%;
-} */

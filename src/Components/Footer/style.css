@@ -5,6 +5,11 @@ footer {
 
 div.row{
     height: 100%;
+    
+}
+
+.footer-col col {
+    text-align: center;
 }
 
 .footer-col h3 {

@@ -23,7 +23,11 @@ const About = () => {
   return (
     <Container>
       <Row>
-        <Col>im the only col</Col>
+        <Col>
+          <div className="welcome-image">
+            <img />
+          </div>
+        </Col>
         <Col className="">
           <div className="welcome-box">
             <div className="welcome-text">
