@@ -1,0 +1,44 @@
+div.container {
+    height: 100%;
+    padding-top: 5%;
+}
+
+div.row {
+    height: 100%;  
+}
+
+div.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome-text-hello {
+    font-size: 6rem;
+    font-weight: 900;
+    text-shadow: 2px 0 #000000;
+    letter-spacing: -1.8px;
+    padding-bottom: 3%;
+}
+
+.welcome-about-me {
+    font-size: 1.3rem;
+    text-shadow: 1px 0 #000000;
+    letter-spacing:1px;
+    font-weight:900;
+}
+
+.welcome-paragraph {
+    width: 26rem;
+    font-weight: 100;
+    line-height: 1.5rem;
+    padding-bottom: 2rem;;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: -2%;  
+    max-width: 80%;
+}

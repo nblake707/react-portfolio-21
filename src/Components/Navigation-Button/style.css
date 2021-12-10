@@ -1,0 +1,11 @@
+.navigation-button {
+    font-size: 1.4rem;
+    font-weight: 900;
+    width: 155px;
+    height: 155px;
+    border-radius: 80px;
+    border-color: #000000;
+    cursor: pointer; 
+    transition: .6s;
+}
+
