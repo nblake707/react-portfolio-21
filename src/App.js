@@ -7,7 +7,6 @@ import Projects from './Components/Projects';
 import Footer from './Components/Footer';
 import "@fontsource/work-sans";
 
-
 function App() {
   return (
     <div className="App">
@@ -17,7 +16,7 @@ function App() {
         {/* <Contact /> 
         <Projects />  */}
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

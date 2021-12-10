@@ -1,6 +1,6 @@
 div.container {
     height: 100%;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 div.row {
@@ -40,21 +40,9 @@ div.col {
     justify-content: space-between;
     position: relative;
     left: -2%;  
-    /* width: 500px; */
+    /* width: 5em; */
+    margin: 0;
 }
-
-.navigation-buttons:nth-child(1) {
-    background-color: #eea302;
-}
-
-.navigation-buttons:nth-child(2) {
-    
-}
-
-.navigation-buttons:nth-child(3) {
-    
-}
-
 
 
 /* .welcome-box {
