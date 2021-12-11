@@ -17,10 +17,13 @@ const Footer = () => {
             <p>github.com/nblake707</p>
           </Col>
           <Col className="footer-col">
-            <h3>Follow Me</h3>
-            <FaGithub />
-            <FaLinkedin />
-            {/* social media icons */}
+            <Row>
+              <h3>Follow Me</h3>
+            </Row>
+            <Row className="footer-icons">
+              <FaGithub />
+              <FaLinkedin />
+            </Row>
           </Col>
           <Col className="footer-col">
             <p>Made in nyc</p>

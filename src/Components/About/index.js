@@ -28,8 +28,7 @@ const About = () => {
             <img />
           </div>
         </Col>
-        <Col className="">
-          <div className="welcome-box">
+        <Col>
             <div className="welcome-text">
               <h1 className="welcome-text-hello">Hello</h1>
               <h4 className="welcome-about-me">A Bit About Me</h4>
@@ -42,7 +41,6 @@ const About = () => {
             <div className="navigation-buttons">                     
               <NavigationButton buttonProperties={categories} />
             </div>
-          </div>
         </Col>
       </Row>
     </Container>
