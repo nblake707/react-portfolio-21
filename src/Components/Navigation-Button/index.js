@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./style.css";
 
 const NavigationButton = ({ buttonProperties }) => {
+  const navigate = useNavigate();
 
   const handleMouseEnter = (e) => {
     e.target.style.background = "#f3f3f3";
@@ -31,6 +33,7 @@ const NavigationButton = ({ buttonProperties }) => {
           key={properties.name}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
+          onClick={() => navigate(`/${properties.name}`)}
         >
           {properties.name}
         </button>
