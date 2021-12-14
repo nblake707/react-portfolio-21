@@ -6,13 +6,14 @@ import "./style.css";
 const Footer = () => {
   return (
     <footer>
+      <hr style={{ width: '90%', margin: "auto", color:"#56494c", backgroundColor:"#56494c"}}/>
       <Container>
         <Row className="footer-row">
-          <Col className="footer-col">
+          <Col md={3} className="footer-col">
             <h3>Email</h3>
             <p>nblake707@gmail.com</p>
           </Col>
-          <Col className="footer-col">
+          <Col md={3} className="footer-col">
             <h3>Github</h3>
             <p>github.com/nblake707</p>
           </Col>

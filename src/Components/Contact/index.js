@@ -47,8 +47,8 @@ const Contact = () => {
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="First name"
-                    aria-label="First name"
+                    placeholder="Email"
+                    aria-label="Email"
                   />
                 </div>
                 <div className="col-5">
@@ -56,8 +56,8 @@ const Contact = () => {
                   <input
                     type="text"
                     className="form-control"
-                    placeholder="Last name"
-                    aria-label="Last name"
+                    placeholder="Subject"
+                    aria-label="Subject"
                   />
                 </div>
               </div>
