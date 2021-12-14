@@ -1,7 +1,14 @@
 import { Container, Row, Col, Form } from "react-bootstrap";
+import { useForm, ValidationError } from "@formspree/react";
 import "./style.css";
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm("mrgjgabb");
+  if (state.succeeded) {
+      // create a thank you message and style
+    return <p>Thanks for joining!</p>;
+  }
+
   return (
     <Container>
       <Row>
@@ -16,12 +23,14 @@ const Contact = () => {
           </div>
         </Col>
         <Col>
-          <Form>
+          <Form onSubmit={handleSubmit}>
             <div className="contact-row-wrapper">
               <div className="row">
                 <div className="col-5">
                   <label>First Name</label>
                   <input
+                    id="first-name"
+                    name="first-name"
                     type="text"
                     class="form-control"
                     placeholder="First name"
@@ -31,6 +40,8 @@ const Contact = () => {
                 <div className="col-5">
                   <label>Last Name</label>
                   <input
+                    id="last-name"
+                    name="last-name"
                     type="text"
                     className="form-control"
                     placeholder="Last name"
@@ -43,17 +54,26 @@ const Contact = () => {
             <div className="contact-row-wrapper">
               <div className="row">
                 <div className="col-5">
-                  <label>Email</label>
+                  <label htmlFor="email">Email</label>
                   <input
-                    type="text"
+                    id="email"
+                    type="email"
+                    name="email"
                     class="form-control"
                     placeholder="Email"
                     aria-label="Email"
+                  />
+                  <ValidationError
+                    prefix="Email"
+                    field="email"
+                    errors={state.errors}
                   />
                 </div>
                 <div className="col-5">
                   <label>Subject</label>
                   <input
+                    id="subject"
+                    name="subject"
                     type="text"
                     className="form-control"
                     placeholder="Subject"
@@ -68,18 +88,24 @@ const Contact = () => {
                 <div className="col">
                   <label>Message</label>
                   <textarea
-                    id="story"
-                    name="story"
+                    id="message"
+                    name="message"
                     rows="5"
                     cols="33"
                   ></textarea>
+                  <ValidationError
+                    prefix="Message"
+                    field="message"
+                    errors={state.errors}
+                  />
                 </div>
                 <div className="col">
                   <input
                     type="submit"
+                    disabled={state.submitting}
                     className="form-control"
-                    placeholder="Last name"
-                    aria-label="Last name"
+                    placeholder="submit"
+                    aria-label="submit"
                   />
                 </div>
               </div>

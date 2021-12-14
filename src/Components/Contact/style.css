@@ -14,9 +14,10 @@
 
 .text-col {
   justify-content: flex-start !important;
-  margin-top: 7% !important;
+  margin-top: 11% !important;
   align-items: center;
 }
+
 
 input[type="submit"] {
   font-size: 1.4rem;
