@@ -1,10 +1,10 @@
-div.container {
+div.about-container.container {
   height: 100%;
   padding-top: 1%;
 }
 
-div.row {
-  height: 100%;
+div.about-row.row {
+  height: 100vh;
 }
 
 div.col {

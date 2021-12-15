@@ -1,3 +1,7 @@
+div.contact-row.row {
+  height: 100vh;
+}
+
 .contact-row-wrapper {
   margin-bottom: 5%;
 }

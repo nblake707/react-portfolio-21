@@ -13,7 +13,7 @@ const Contact = () => {
 
   return (
     <Container>
-      <Row>
+      <Row className="contact-row">
         <Col className="text-col">
           <div className="contact-text">
             <h1>Contact</h1>

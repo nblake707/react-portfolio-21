@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./style.css";
 import NavigationButton from "../Navigation-Button";
+import Avatar from 'avataaars';
 
 const About = () => {
   // button properties
@@ -21,11 +22,24 @@ const About = () => {
   ]);
 
   return (
-    <Container>
-      <Row>
+    <Container className="about-container">
+      <Row className="about-row">
         <Col>
           <div className="welcome-image">
-            <img />
+            {/* <img /> */}
+            {/* <Avatar
+              avatarStyle='Circle'
+              topType='LongHairCurly'
+              accessoriesType='Kurt'
+              hairColor='BrownDark'
+              facialHairType='Blank'
+              clotheType='CollarSweater'
+              clotheColor='PastelYellow'
+              eyeType='Happy'
+              eyebrowType='RaisedExcitedNatural'
+              mouthType='Smile'
+              skinColor='DarkBrown'
+            /> */}
           </div>
         </Col>
         <Col>

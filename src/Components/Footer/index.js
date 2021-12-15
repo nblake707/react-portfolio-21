@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <hr style={{ width: '90%', margin: "auto", color:"#56494c", backgroundColor:"#56494c"}}/>
-      <Container>
+      <Container className="footer-container">
         <Row className="footer-row">
           <Col md={3} className="footer-col">
             <h3>Email</h3>
