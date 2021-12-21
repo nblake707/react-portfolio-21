@@ -1,0 +1,32 @@
+div.resume-container {
+    padding-left: 8%;
+    padding-top: 8%;
+    padding-right: 8%;
+}
+
+div.resume-container div.row {
+    margin-bottom: 5%;
+}
+
+div.subheading.col {
+  justify-content: flex-start;
+}
+
+.heading-2 {
+    font-size: 1.7em;
+    font-weight: 900;
+}
+
+.resume-entry h5 {
+    font-weight: 900;
+}
+
+.resume-title {
+    margin-bottom: 6%;
+      font-weight: 900;
+}
+
+.resume-paragraph {
+    width: 80%;
+}
+
