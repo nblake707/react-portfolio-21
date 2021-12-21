@@ -13,6 +13,28 @@ div.col {
   justify-content: center;
 }
 
+ .welcome-image {
+  width: 100%;
+  height:auto;
+} 
+
+.welcome-image-div {
+  height: 30em;
+  width: 29em;
+  border-radius: 52%;
+  overflow: hidden;
+  align-self:flex-end;
+}
+
+div.picture-col {
+  padding-right: 8%;
+}
+
+div.welcome-text {
+  position: relative;
+  left: -6%;
+}
+
 .welcome-text-hello {
   font-size: 6rem;
   font-weight: 900;
@@ -29,7 +51,7 @@ div.col {
 }
 
 .welcome-paragraph {
-  width: 26rem;
+  width: 28rem;
   font-weight: 100;
   line-height: 1.5rem;
   padding-bottom: 2rem;
@@ -37,9 +59,19 @@ div.col {
 
 .navigation-buttons {
   display: flex;
-  height: 11em;
+  height: 10em;
   position: relative;
-  left: -2%;
+  left: -13%;
+}
+
+.too-you {
+ text-decoration: none;
+ font-weight:500;
+ color: #eea304;
+}
+
+.too-you:hover {
+  color: #80d9da;
 }
 
 @media only screen and (max-width: 1333px) {

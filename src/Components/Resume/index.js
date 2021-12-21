@@ -4,19 +4,19 @@ import "./style.css";
 const Resume = () => {
   return (
     <Container className="resume-container">
-      <Row>
+      {/* <Row>
         <Col>
           <div className="resume-title">
             <h1>Resume</h1>
           </div>
         </Col>
-      </Row>
+      </Row> */}
       <Row>
         <Col className="subheading">
-          <h3 className="heading-2">
-            Work <br /> Experience
-          </h3>
+          <h3 className="heading-2">Work Experience</h3>
         </Col>
+      </Row>
+      <Row>
         <Col className="resume-entry">
           <h5>Java Enterprise Assistant Instructor</h5>
           <h6>May 2019 - Present</h6>
@@ -28,7 +28,6 @@ const Resume = () => {
         </Col>
       </Row>
       <Row>
-        <Col></Col>
         <Col className="resume-entry">
           <h5>Teaching Assistant</h5>
           <h6>Jan 2021 - Present</h6>
@@ -40,7 +39,6 @@ const Resume = () => {
         </Col>
       </Row>
       <Row>
-        <Col></Col>
         <Col className="resume-entry">
           <h5>Curriculum Engineer</h5>
           <h6>Oct 2020 - Jan 2021</h6>
@@ -52,7 +50,6 @@ const Resume = () => {
         </Col>
       </Row>
       <Row>
-        <Col></Col>
         <Col className="resume-entry">
           <h5>Fullstack Developer</h5>
           <h6>Mar 2019 - Apr 2019</h6>
@@ -63,8 +60,8 @@ const Resume = () => {
           </p>
         </Col>
       </Row>
+
       <Row>
-        <Col></Col>
         <Col className="resume-entry">
           <h5>Java Apprentice</h5>
           <h6>May 2018 - Jan 2019</h6>
