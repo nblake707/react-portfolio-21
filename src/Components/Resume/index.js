@@ -1,8 +1,9 @@
 import { Container, Row, Col, Form } from "react-bootstrap";
 
 const Resume = () => {
-  return (
-    <Container>
+
+    return (
+        <Container>
         <Row>
             <Col>
             <h1>Resume</h1>
@@ -35,7 +36,8 @@ const Resume = () => {
         <Col></Col>
       </Row>
     </Container>
-  );
-};
+    )
+
+}
 
 export default Resume;
