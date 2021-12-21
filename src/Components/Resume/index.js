@@ -4,11 +4,38 @@ const Resume = () => {
 
     return (
         <Container>
-            <Row></Row>
-            <Row></Row>
-            <Row></Row>
-            <hr/>
-        </Container>
+        <Row>
+            <Col>
+            <h1>Resume</h1>
+            </Col>   
+        </Row>
+      <Row>
+        <Col></Col>
+        <Col></Col>
+      </Row>
+      <Row>
+        <Col></Col>
+        <Col></Col>
+      </Row>
+      <Row>
+        <Col></Col>
+        <Col></Col>
+      </Row>
+      <hr />
+      <Row>
+        <Col></Col>
+        <Col></Col>
+      </Row>
+      <Row>
+        <Col></Col>
+        <Col></Col>
+      </Row>
+      <hr />
+      <Row>
+        <Col></Col>
+        <Col></Col>
+      </Row>
+    </Container>
     )
 
 }
