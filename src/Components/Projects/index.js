@@ -22,13 +22,13 @@ const Projects = () => {
           </div>
         </Col>
         <Col>
-        <div className="bg-image hover-zoom">
+          <div className="bg-image hover-zoom">
             <img src={require("../../assets/healthydining.jpg").default} />
           </div>
         </Col>
       </Row>
       <Row>
-      <Col className="project-info-col">
+        <Col className="project-info-col">
           <div className="project-text">
             <h3>Project Name 01</h3>
             <p>
@@ -45,7 +45,7 @@ const Projects = () => {
         </Col>
       </Row>
       <Row>
-      <Col className="project-info-col">
+        <Col className="project-info-col">
           <div className="project-text">
             <h3>Project Name 01</h3>
             <p>

@@ -1,15 +1,30 @@
 div.projects-container.container {
-    padding-left: 8%;
-    padding-top: 8%;
+  padding-left: 8%;
+  padding-top: 8%;
+}
+
+div.projects-container div.row:not(:first-child) {
+  margin-bottom: 10%;
 }
 
 div.title-col {
-    margin-bottom: 5%;
+  margin-bottom: 5%;
+  font-weight: 900;
 }
 
 div.project-info-col {
   justify-content: flex-start;
   padding-top: 5%;
+}
+
+.project-text {
+  width: 70%;
+}
+
+.project-text h3 {
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 5%;
 }
 
 /* .img-wrapper {
@@ -19,4 +34,3 @@ div.project-info-col {
 .img-wrapper:hover {
   translate: translateY(20px);
 } */
-
