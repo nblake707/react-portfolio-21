@@ -5,14 +5,15 @@ import "./style.css";
 
 const Projects = () => {
   return (
+    
     <Container className="projects-container">
-      <FadeIn>
+        <FadeIn>
         <Row>
           <Col className="title-col">
             <h1>Projects</h1>
           </Col>
         </Row>
-        <Row>
+        <Row className="project-row">
           <Col className="project-info-col">
             <div className="project-text">
               <h3>Recipe Search App</h3>
@@ -29,7 +30,7 @@ const Projects = () => {
             </div>
           </Col>
         </Row>
-        <Row>
+        <Row className="project-row">
           <Col className="project-info-col">
             <div className="project-text">
               <h3>Project Name 01</h3>
@@ -46,7 +47,7 @@ const Projects = () => {
             </div>
           </Col>
         </Row>
-        <Row>
+        <Row className="project-row">
           <Col className="project-info-col">
             <div className="project-text">
               <h3>Project Name 01</h3>
@@ -63,7 +64,7 @@ const Projects = () => {
             </div>
           </Col>
         </Row>
-      </FadeIn>
+        </FadeIn>
     </Container>
   );
 };

@@ -25,7 +25,7 @@ const About = () => {
     
     <Container className="about-container">
       <FadeIn transitionDuration={400} delay={100}>
-      <Row  className="about-row">
+      <Row className="about-row">
         <Col className="picture-col">
           <div className="welcome-image-div">
             <img src={require("../../assets/me.jpeg").default} className="welcome-image"/>  
