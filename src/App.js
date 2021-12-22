@@ -14,12 +14,24 @@ function App() {
       <div className="App">
         <Navigation />
         <main>
-          <Routes>
-            <Route path="/" caseSensitive={false} element={<About />} />
-            <Route path="/contact" caseSensitive={false} element={<Contact />} />
-            <Route path="/projects" caseSensitive={false} element={<Projects />} />
-            <Route path="/resume" caseSensitive={false} element={<Resume />} />
-          </Routes>
+            <Routes>
+              <Route path="/" caseSensitive={false} element={<About />} />
+              <Route
+                path="/contact"
+                caseSensitive={false}
+                element={<Contact />}
+              />
+              <Route
+                path="/projects"
+                caseSensitive={false}
+                element={<Projects />}
+              />
+              <Route
+                path="/resume"
+                caseSensitive={false}
+                element={<Resume />}
+              />
+            </Routes>
         </main>
         <Footer />
       </div>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./style.css";
 import NavigationButton from "../Navigation-Button";
+import FadeIn from "react-fade-in";
 
 const About = () => {
   // button properties
@@ -21,7 +22,9 @@ const About = () => {
   ]);
 
   return (
+    
     <Container className="about-container">
+      <FadeIn transitionDuration={400} delay={100}>
       <Row  className="about-row">
         <Col className="picture-col">
           <div className="welcome-image-div">
@@ -42,6 +45,7 @@ const About = () => {
           </div>
         </Col>
       </Row>
+      </FadeIn>
     </Container>
   );
 };
