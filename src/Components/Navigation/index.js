@@ -26,7 +26,7 @@ const Navigation = () => {
       <Navbar.Brand href="/" className="bold-brand-name">
         Nateyana Blake
       </Navbar.Brand>
-      <Navbar.Text>Web Developer</Navbar.Text>
+      <Navbar.Text className="hidden-small-screen">Web Developer</Navbar.Text>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">

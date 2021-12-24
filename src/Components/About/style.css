@@ -3,9 +3,10 @@ div.about-container.container {
   padding-top: 2%;
 }
 
-div.about-row.row {
-  height: 100vh;
-}
+/* only on larger screens */
+/* div.about-row.row {
+  height: 100vh; 
+} */
 
 div.col {
   display: flex;
@@ -26,14 +27,6 @@ div.col {
   align-self:flex-end;
 }
 
-div.picture-col {
-  padding-right: 8%;
-}
-
-div.welcome-text {
-  position: relative;
-  left: -6%;
-}
 
 .welcome-text-hello {
   font-size: 6rem;
@@ -60,8 +53,6 @@ div.welcome-text {
 .navigation-buttons {
   display: flex;
   height: 10em;
-  position: relative;
-  left: -13%;
 }
 
 .too-you {
@@ -74,8 +65,30 @@ div.welcome-text {
   color: #80d9da;
 }
 
-@media only screen and (max-width: 1333px) {
+/* for screens smaller than 500px  */
+@media only screen and (max-width: 500px) {
   .navigation-buttons {
-    height: 7em;
+    height: 6em;
+  }
+}
+
+/* for screens larger than 900px */
+@media only screen and (min-width: 900px) {
+  div.about-row.row {
+    height: 100vh; 
+  }
+
+  .navigation-buttons {
+    position: relative;
+    left: -13%;
+  }
+
+  div.picture-col {
+    padding-right: 8%;
+  }
+
+  div.welcome-text {
+    position: relative;
+    left: -6%;
   }
 }

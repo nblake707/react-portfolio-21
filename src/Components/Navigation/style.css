@@ -16,11 +16,22 @@
     font-weight: 600;
 }
 
-.nav-link-border {
-    border-right: 1px solid black;
-    line-height: 4px;
-}
+/* for screens smaller than 500px  */
+@media only screen and (max-width: 500px) {
+    .hidden-small-screen {
+        display: none;
+    }
+  
+  }
+  
+  /* for screens larger than 900px */
+  @media only screen and (min-width: 900px) {
+    .nav-link-border:last-child {
+        border:none;
+    }
 
-.nav-link-border:last-child {
-    border:none;
+    .nav-link-border {
+        border-right: 1px solid black;
+        line-height: 4px;
+    }
 }
