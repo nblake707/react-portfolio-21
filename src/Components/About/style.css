@@ -3,11 +3,6 @@ div.about-container.container {
   padding-top: 2%;
 }
 
-/* only on larger screens */
-/* div.about-row.row {
-  height: 100vh; 
-} */
-
 div.col {
   display: flex;
   flex-direction: column;
@@ -68,7 +63,32 @@ div.col {
 /* for screens smaller than 500px  */
 @media only screen and (max-width: 500px) {
   .navigation-buttons {
-    height: 6em;
+    height: 6.5em;
+    margin-bottom: 10%;
+    padding-left: 2%;
+  }
+
+  div.about-container.container {
+    padding-top: 20%;
+    padding-bottom: 12%;
+  }
+
+  .welcome-text {
+    padding-left: 5%;
+  }
+
+  .welcome-text-hello {
+    font-size: 4rem;
+  }
+
+  .welcome-paragraph {
+    width: 25rem;
+  }  
+
+  .welcome-image-div {
+    height: 17em;
+    width: 17em;
+    align-self:center;
   }
 }
 

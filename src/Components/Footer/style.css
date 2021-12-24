@@ -25,4 +25,16 @@ div.footer-col {
   font-size: .9rem;
 }
 
+/* for screens smaller than 500px  */
+@media only screen and (max-width: 500px) {
+  .footer-hr {
+    width: 100% !important;
+  }
+
+  div.footer-container {
+    padding-top: 7%;
+}
+
+}
+
 
