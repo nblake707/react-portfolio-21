@@ -3,7 +3,7 @@ div.projects-container.container {
   padding-top: 8%;
 }
 
-div.projects-container div.row:not(:first-child) {
+div.project-row {
   margin-bottom: 10%;
 }
 
@@ -27,10 +27,3 @@ div.project-info-col {
     margin-bottom: 5%;
 }
 
-/* .img-wrapper {
-  transition: translateY 0.2s ease-in-out;  
-}
-
-.img-wrapper:hover {
-  translate: translateY(20px);
-} */

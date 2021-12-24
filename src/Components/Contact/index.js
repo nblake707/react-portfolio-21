@@ -1,5 +1,6 @@
 import { Container, Row, Col, Form } from "react-bootstrap";
 import { useForm, ValidationError } from "@formspree/react";
+import FadeIn from "react-fade-in";
 import "./style.css";
 
 const Contact = () => {
@@ -13,6 +14,7 @@ const Contact = () => {
 
   return (
     <Container>
+      <FadeIn transitionDuration={400} delay={100}>
       <Row className="contact-row">
         <Col className="text-col">
           <div className="contact-text">
@@ -35,7 +37,6 @@ const Contact = () => {
                     name="first-name"
                     type="text"
                     class="form-control"
-                    placeholder="First name"
                     aria-label="First name"
                   />
                 </div>
@@ -46,7 +47,6 @@ const Contact = () => {
                     name="last-name"
                     type="text"
                     className="form-control"
-                    placeholder="Last name"
                     aria-label="Last name"
                   />
                 </div>
@@ -62,7 +62,6 @@ const Contact = () => {
                     type="email"
                     name="email"
                     class="form-control"
-                    placeholder="Email"
                     aria-label="Email"
                   />
                   <ValidationError
@@ -78,7 +77,6 @@ const Contact = () => {
                     name="subject"
                     type="text"
                     className="form-control"
-                    placeholder="Subject"
                     aria-label="Subject"
                   />
                 </div>
@@ -115,6 +113,7 @@ const Contact = () => {
           </Form>
         </Col>
       </Row>
+      </FadeIn>
     </Container>
   );
 };

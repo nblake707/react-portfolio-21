@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import "./style.css";
 import NavigationButton from "../Navigation-Button";
-import Avatar from 'avataaars';
+import FadeIn from "react-fade-in";
 
 const About = () => {
   // button properties
@@ -23,40 +23,36 @@ const About = () => {
 
   return (
     <Container className="about-container">
-      <Row className="about-row">
-        <Col>
-          <div className="welcome-image">
-            {/* <img /> */}
-            {/* <Avatar
-              avatarStyle='Circle'
-              topType='LongHairCurly'
-              accessoriesType='Kurt'
-              hairColor='BrownDark'
-              facialHairType='Blank'
-              clotheType='CollarSweater'
-              clotheColor='PastelYellow'
-              eyeType='Happy'
-              eyebrowType='RaisedExcitedNatural'
-              mouthType='Smile'
-              skinColor='DarkBrown'
-            /> */}
-          </div>
-        </Col>
-        <Col>
-          <div className="welcome-text">
-            <h1 className="welcome-text-hello">Hello</h1>
-            <h4 className="welcome-about-me">A Bit About Me</h4>
-            <p className="welcome-paragraph">
-              I'm a paragraph. Click here to add your own text and edit me. I’m
-              a great place for you to tell a story and let your users know a
-              little more about you.
-            </p>
-          </div>
-          <div className="navigation-buttons">
-            <NavigationButton buttonProperties={categories} />
-          </div>
-        </Col>
-      </Row>
+      <FadeIn transitionDuration="600">
+        <Row className="about-row">
+          <Col className="picture-col">
+            <div className="welcome-image-div">
+              <Image
+                src={require("../../assets/me.jpeg").default}
+                className="welcome-image"
+              />
+            </div>
+          </Col>
+          <Col xs={{ order: "first" }} lg={{ order: "last" }}>
+            <div className="welcome-text">
+              <h1 className="welcome-text-hello">Hello</h1>
+              <h4 className="welcome-about-me">My name is Nateyana</h4>
+              <p className="welcome-paragraph">
+                I’m a web developer specializing in building exceptional digital
+                experiences. Currently, I'm focused on delivering high-quality
+                digital education at{" "}
+                <a href="https://2u.com/" className="too-you">
+                  2U
+                </a>
+                .
+              </p>
+            </div>
+            <div className="navigation-buttons">
+              <NavigationButton buttonProperties={categories} />
+            </div>
+          </Col>
+        </Row>
+      </FadeIn>
     </Container>
   );
 };

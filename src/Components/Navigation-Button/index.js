@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import FadeIn from "react-fade-in";
 import "./style.css";
 
 const NavigationButton = ({ buttonProperties }) => {

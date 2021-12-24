@@ -1,10 +1,6 @@
 div.about-container.container {
   height: 100%;
-  padding-top: 1%;
-}
-
-div.about-row.row {
-  height: 100vh;
+  padding-top: 2%;
 }
 
 div.col {
@@ -12,6 +8,20 @@ div.col {
   flex-direction: column;
   justify-content: center;
 }
+
+ .welcome-image {
+  width: 100%;
+  height:auto;
+} 
+
+.welcome-image-div {
+  height: 30em;
+  width: 29em;
+  border-radius: 52%;
+  overflow: hidden;
+  align-self:flex-end;
+}
+
 
 .welcome-text-hello {
   font-size: 6rem;
@@ -29,7 +39,7 @@ div.col {
 }
 
 .welcome-paragraph {
-  width: 26rem;
+  width: 28rem;
   font-weight: 100;
   line-height: 1.5rem;
   padding-bottom: 2rem;
@@ -37,13 +47,68 @@ div.col {
 
 .navigation-buttons {
   display: flex;
-  height: 11em;
-  position: relative;
-  left: -2%;
+  height: 10em;
 }
 
-@media only screen and (max-width: 1333px) {
+.too-you {
+ text-decoration: none;
+ font-weight:500;
+ color: #eea304;
+}
+
+.too-you:hover {
+  color: #80d9da;
+}
+
+/* for screens smaller than 500px  */
+@media only screen and (max-width: 500px) {
   .navigation-buttons {
-    height: 7em;
+    height: 6.5em;
+    margin-bottom: 10%;
+    padding-left: 2%;
+  }
+
+  div.about-container.container {
+    padding-top: 20%;
+    padding-bottom: 12%;
+  }
+
+  .welcome-text {
+    padding-left: 5%;
+  }
+
+  .welcome-text-hello {
+    font-size: 4rem;
+  }
+
+  .welcome-paragraph {
+    width: 25rem;
+  }  
+
+  .welcome-image-div {
+    height: 17em;
+    width: 17em;
+    align-self:center;
+  }
+}
+
+/* for screens larger than 900px */
+@media only screen and (min-width: 900px) {
+  div.about-row.row {
+    height: 100vh; 
+  }
+
+  .navigation-buttons {
+    position: relative;
+    left: -13%;
+  }
+
+  div.picture-col {
+    padding-right: 8%;
+  }
+
+  div.welcome-text {
+    position: relative;
+    left: -6%;
   }
 }

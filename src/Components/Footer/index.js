@@ -6,7 +6,15 @@ import "./style.css";
 const Footer = () => {
   return (
     <footer>
-      <hr style={{ width: '90%', margin: "auto", color:"#56494c", backgroundColor:"#56494c"}}/>
+      <hr
+        className="footer-hr"
+        style={{
+          width: "90%",
+          margin: "auto",
+          color: "#56494c",
+          backgroundColor: "#56494c",
+        }}
+      />
       <Container className="footer-container">
         <Row className="footer-row">
           <Col md={3} className="footer-col">
