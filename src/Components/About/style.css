@@ -47,6 +47,7 @@ div.col {
 
 .navigation-buttons {
   display: flex;
+  justify-content: center;
 }
 
 .too-you {
@@ -63,7 +64,7 @@ div.col {
 @media only screen and (max-width: 500px) {
   .navigation-buttons {
     height: 6.5em;
-    width: -webkit-fill-available;
+    max-width: -webkit-fill-available;
     margin-bottom: 10%;
   }
 
