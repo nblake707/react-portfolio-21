@@ -1,15 +1,17 @@
 
-.navigation-button {
-  font-size: 1.4em;
-  display: inline-block;
-  font-weight: 900;
-  border-radius: 60%;
-  border-color: #000000;
-  cursor: pointer;
-  transition: 0.6s;
-  margin-right: 2%;
-  padding: 0;
-  flex: 1.8em;
+@media only screen and (min-width: 900px) {
+  .navigation-button {
+    font-size: 1.4em;
+    display: inline-block;
+    font-weight: 900;
+    border-radius: 60%;
+    border-color: #000000;
+    cursor: pointer;
+    transition: 0.6s;
+    margin-right: 2%;
+    padding: 0;
+    flex: 1.8em;
+  }
 }
 /* for screens smaller than 500px  */
 @media only screen and (max-width: 500px) {
@@ -25,5 +27,6 @@
     transition: 0.6s;
     margin-right: 2%;
     padding: 0;
+    /* flex: 2em; */
   }
 }
