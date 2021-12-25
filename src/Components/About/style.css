@@ -64,6 +64,7 @@ div.col {
 @media only screen and (max-width: 500px) {
   .navigation-buttons {
     height: 6.5em;
+    width: 100vw;
     margin-bottom: 10%;
     margin-right: 23%;
   }
