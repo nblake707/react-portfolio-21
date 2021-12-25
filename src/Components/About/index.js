@@ -47,9 +47,9 @@ const About = () => {
                 .
               </p>
             </div>
-            <div className="navigation-buttons">
+            {/* <div className="navigation-buttons">
               <NavigationButton buttonProperties={categories} />
-            </div>
+            </div> */}
           </Col>
         </Row>
       </FadeIn>
