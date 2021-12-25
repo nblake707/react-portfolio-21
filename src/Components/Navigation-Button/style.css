@@ -1,5 +1,8 @@
 .navigation-button {
-  font-size: 1.4rem;
+  font-size: 1.4em;
+  height:100%;
+  width:auto;
+  display:inline-block;
   font-weight: 900;
   border-radius: 60%;
   border-color: #000000;
