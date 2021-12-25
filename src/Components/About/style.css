@@ -65,7 +65,7 @@ div.col {
   .navigation-buttons {
     height: 6.5em;
     margin-bottom: 10%;
-    padding-left: 2%;
+    margin-right: 23%;
   }
 
   div.about-container.container {
@@ -82,7 +82,7 @@ div.col {
   }
 
   .welcome-paragraph {
-    width: 25rem;
+    width: 20rem;
   }  
 
   .welcome-image-div {

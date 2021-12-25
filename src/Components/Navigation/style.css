@@ -21,6 +21,10 @@
     .hidden-small-screen {
         display: none;
     }
+
+    #root > div > nav {
+        margin: 0;
+    }
   
   }
   
