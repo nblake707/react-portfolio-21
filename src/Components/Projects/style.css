@@ -27,3 +27,7 @@ div.project-info-col {
     margin-bottom: 5%;
 }
 
+div.projects-container.container a {
+  text-decoration: none;
+}
+

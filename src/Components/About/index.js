@@ -39,7 +39,7 @@ const About = () => {
               <h4 className="welcome-about-me">My name is Nateyana</h4>
               <p className="welcome-paragraph">
                 I’m a web developer specializing in building exceptional digital
-                experiences. Currently, I'm focused on delivering high-quality
+                experiences. Currently, focused on delivering high-quality
                 digital education at{" "}
                 <a href="https://2u.com/" className="too-you">
                   2U
