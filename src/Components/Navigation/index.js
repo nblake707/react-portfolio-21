@@ -37,13 +37,13 @@ const Navigation = () => {
           >
             Projects
           </Nav.Link>
-          <Nav.Link
+          {/* <Nav.Link
             onClick={() => navigate("/Resume")}
             className="nav-link-border"
             data-testid="resume"
           >
             Resume
-          </Nav.Link>
+          </Nav.Link> */}
           <Nav.Link
             onClick={() => navigate("/Contact")}
             className="nav-link-border"
